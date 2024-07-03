@@ -10,7 +10,7 @@ const questions = [
         correctAnswer: 1 //1
       },
       {
-        question: "The CIA triad represents three key principles in information security. What does 'A' stand for? 13 remaining",
+        question: "2. The CIA triad represents three key principles in information security. What does 'A' stand for? 13 remaining",
         answers: [
           "Authentication",
           "Availability",
@@ -20,7 +20,7 @@ const questions = [
         correctAnswer: 0 //2
       },
       {
-        question: "Which of the following is NOT a core element of information security? 12 remaining",
+        question: "3. Which of the following is NOT a core element of information security? 12 remaining",
         answers: [
           "Confidentiality",
           "Integrity",
@@ -30,7 +30,7 @@ const questions = [
         correctAnswer: 2
       },
       {
-        question: "The cybersecurity landscape is constantly evolving. What is a term used to describe malicious attempts to exploit vulnerabilities in computer systems? 11 remaining",
+        question: "4. The cybersecurity landscape is constantly evolving. What is a term used to describe malicious attempts to exploit vulnerabilities in computer systems? 11 remaining",
         answers: [
           "Patch management",
           "Cyber threat",
@@ -40,7 +40,7 @@ const questions = [
         correctAnswer: 1
       },
       {
-        question: "What can be the impact of a cybercrime on a business? 10 remaining",
+        question: "5. What can be the impact of a cybercrime on a business? 10 remaining",
         answers: [
           "Increased employee productivity",
           "Financial losses and reputational damage",
@@ -50,7 +50,7 @@ const questions = [
         correctAnswer: 1
       },
       {
-        question: "Which type of cybercrime involves tricking victims into revealing personal information? 9 remaining",
+        question: "6. Which type of cybercrime involves tricking victims into revealing personal information? 9 remaining",
         answers: [
           "Phishing",
           "Malware attack",
@@ -60,7 +60,7 @@ const questions = [
         correctAnswer: 0
       },
       {
-        question: "Ethical hacking involves attempting to exploit vulnerabilities in a computer system with permission. What is another term for an ethical hacker? 8 remaining",
+        question: "7. Ethical hacking involves attempting to exploit vulnerabilities in a computer system with permission. What is another term for an ethical hacker? 8 remaining",
         answers: [
           "Cybercriminal",
           "White hat hacker",
@@ -70,7 +70,7 @@ const questions = [
         correctAnswer: 1
       },
       {
-        question: "What is a primary role of an ethical hacker? 7 remaining",
+        question: "8. What is a primary role of an ethical hacker? 7 remaining",
         answers: [
           "To steal data from businesses.",
           "To identify and report security vulnerabilities.",
@@ -80,7 +80,7 @@ const questions = [
         correctAnswer: 1
       },
       {
-        question: "Which cybersecurity career path focuses on designing and implementing security measures for computer systems? 6 remaining",
+        question: "9. Which cybersecurity career path focuses on designing and implementing security measures for computer systems? 6 remaining",
         answers: [
           "Security Analyst",
           "Ethical Hacker",
@@ -90,7 +90,7 @@ const questions = [
         correctAnswer: 0
       },
       {
-        question: "What skills are important for a career in cybersecurity? 5 remaining",
+        question: "10. What skills are important for a career in cybersecurity? 5 remaining",
         answers: [
           "Strong communication and problem-solving skills",
           "Ability to code in multiple programming languages",
@@ -100,7 +100,7 @@ const questions = [
         correctAnswer: 0
       },
       {
-        question: "Encryption is a technique used to: 4 remaining",
+        question: "11. Encryption is a technique used to: 4 remaining",
         answers: [
           "Make data readable by authorized users.",
           "Scramble data to make it unreadable without a key.",
@@ -110,7 +110,7 @@ const questions = [
         correctAnswer: 1
       },
       {
-        question: "A firewall acts as a barrier between a computer network and the internet. What is its primary function? 3 remaining",
+        question: "12. A firewall acts as a barrier between a computer network and the internet. What is its primary function? 3 remaining",
         answers: [
           "To block all incoming and outgoing traffic.",
           "To filter incoming and outgoing traffic based on security rules.",
@@ -120,7 +120,7 @@ const questions = [
         correctAnswer: 1
       },
       {
-        question: "What is a common social engineering tactic used by cybercriminals? 2 remaining",
+        question: "13. What is a common social engineering tactic used by cybercriminals? 2 remaining",
         answers: [
           "Exploiting software vulnerabilities.",
           "Using strong encryption methods.",
@@ -130,7 +130,7 @@ const questions = [
         correctAnswer: 2
       },
       {
-        question: "Multi-factor authentication (MFA) is an additional layer of security that requires: 1 remaining",
+        question: "14. Multi-factor authentication (MFA) is an additional layer of security that requires: 1 remaining",
         answers: [
           "Only a strong password.",
           "Either a password or a fingerprint scan.",
@@ -140,7 +140,7 @@ const questions = [
         correctAnswer: 2
       },
       {
-        question: "How can individuals stay informed about the latest cybersecurity threats? 0 remaining",
+        question: "15. How can individuals stay informed about the latest cybersecurity threats? 0 remaining",
         answers: [
           "Clicking on links in unknown emails.",
           "Following reputable cybersecurity resources online.",
@@ -155,7 +155,7 @@ const questions = [
   
   let currentQuestion = 0;
   let score = 0;
-  let temporaryUsername = "Guest"; // Define a temporary username
+  let temporaryUsername = "Trainee"; // Define a temporary username
   
   function displayQuestion() {
     const questionElement = document.getElementById("question");
