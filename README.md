@@ -1,9 +1,29 @@
-# Cyberchamp-Level-1
+<div id="header" align="center">
+  <img src="https://github.com/user-attachments/assets/f48e04e1-582e-4bcb-b821-9e26b77a9b3e" width="100"/>
+  
+  <div id="badges">
+    <a href="https://web.facebook.com/Samibanks001">
+      <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook Badge"/>
+    </a>
+    <a href="https://x.com/Samibanks01">
+      <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+    </a>
+  </div>
+  
+  <img src="https://komarev.com/ghpvc/?username=samibanks01&style=flat-square&color=blue" alt=""/>
 
-https://www.freepik.com/free-vector/hand-drawn-judge-cartoon-illustration_67172568.htm
+  <h1>
+    Hey, Challenger.
+    <br>
+      This is the Cyber Champ battleground.
+    </br>
+  </h1>
 
-https://www.freepik.com/free-ai-image/3d-fun-carnival-character_133769333.htm
+</div>
 
-https://www.freepik.com/free-ai-image/view-3d-male-lawyer-suit_138376614.htm
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/10adc806-aa2e-4f13-8995-ad1bc19af446" width="600" height="300"/>
+</div>
 
-https://www.freepik.com/free-ai-image/androgynous-avatar-non-binary-queer-person_133543325.htm
+
+
