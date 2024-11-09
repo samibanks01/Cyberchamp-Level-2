@@ -17,7 +17,7 @@ const questions = [
           "Confidentiality",
           "Authorization"
         ],
-        correctAnswer: 0 //2
+        correctAnswer: 1 //2
       },
       {
         question: "3. Which of the following is NOT a core element of information security? 12 remaining",
@@ -82,12 +82,12 @@ const questions = [
       {
         question: "9. Which cybersecurity career path focuses on designing and implementing security measures for computer systems? 6 remaining",
         answers: [
-          "Security Analyst",
+          "Cybersecurity Analyst",
           "Ethical Hacker",
-          "Digital Forensic Investigator",
+          "Security Engineer",
           "Chief Information Security Officer (CISO)"
         ],
-        correctAnswer: 0
+        correctAnswer: 2
       },
       {
         question: "10. What skills are important for a career in cybersecurity? 5 remaining",
