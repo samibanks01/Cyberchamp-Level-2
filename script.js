@@ -1,153 +1,153 @@
 const questions = [
     {
-        question: "1. Why is cybersecurity important? 14 remaining",
+        question: "1. What is the CIA Triad in cybersecurity, and why is it important? 14 remaining",
         answers: [
-          "To keep your computer running smoothly.",
-          "To protect sensitive information from unauthorized access.",
-          "To ensure all websites are accessible.",
-          "To browse the internet anonymously."
+          "A framework for assessing cybersecurity risks.",
+          "A set of security principles to protect sensitive information.",
+          "A technical control for securing networks.",
+          "A type of cybersecurity attack."
         ],
         correctAnswer: 1 //1
       },
       {
-        question: "2. The CIA triad represents three key principles in information security. What does 'A' stand for? 13 remaining",
+        question: "2. Define the terms 'threat,' 'vulnerability,' and 'risk' in the context of cybersecurity. 13 remaining",
         answers: [
-          "Authentication",
-          "Availability",
-          "Confidentiality",
-          "Authorization"
+          "Threat: A potential danger to a system or network. Vulnerability: A weakness that can be exploited. Risk: The likelihood of a threat exploiting a vulnerability.",
+          " Threat: A malicious actor. Vulnerability: A security control. Risk: A potential loss.",
+          "Threat: A security policy. Vulnerability: A risk assessment. Risk: A threat actor.",
+          "Threat: A network attack. Vulnerability: A firewall. Risk: A security breach."
         ],
-        correctAnswer: 1 //2
+        correctAnswer: 0 //2
       },
       {
-        question: "3. Which of the following is NOT a core element of information security? 12 remaining",
+        question: "3. What are some common types of cyber threats? 12 remaining",
         answers: [
-          "Confidentiality",
-          "Integrity",
-          "Redundancy",
-          "Availability"
+          "Firewalls, intrusion detection systems, encryption, access controls.",
+          "Security policies, user training, risk assessments, incident response plans.",
+          "Malware, phishing, ransomware, DDoS attacks.",
+          "Network topology, IP addressing, DNS, routing protocols."
         ],
         correctAnswer: 2
       },
       {
-        question: "4. The cybersecurity landscape is constantly evolving. What is a term used to describe malicious attempts to exploit vulnerabilities in computer systems? 11 remaining",
+        question: "4. How can vulnerabilities in systems and software lead to security breaches? 11 remaining",
         answers: [
-          "Patch management",
-          "Cyber threat",
-          "Firewall",
-          "Encryption"
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "5. What can be the impact of a cybercrime on a business? 10 remaining",
-        answers: [
-          "Increased employee productivity",
-          "Financial losses and reputational damage",
-          "Improved customer service",
-          "Faster internet speeds"
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "6. Which type of cybercrime involves tricking victims into revealing personal information? 9 remaining",
-        answers: [
-          "Phishing",
-          "Malware attack",
-          "Denial-of-service attack (DoS)",
-          "Data breach"
+          "By allowing attackers to exploit weaknesses to gain unauthorized access.",
+          "By providing a platform for secure communication.",
+          "By strengthening the security posture of an organization.",
+          "By preventing cyberattacks from occurring."
         ],
         correctAnswer: 0
       },
       {
-        question: "7. Ethical hacking involves attempting to exploit vulnerabilities in a computer system with permission. What is another term for an ethical hacker? 8 remaining",
+        question: "5. Explain the concept of risk assessment and its importance in cybersecurity. 10 remaining",
         answers: [
-          "Cybercriminal",
-          "White hat hacker",
-          "Black hat hacker",
-          "Script kiddie"
+          "Risk assessment is a technical process for securing networks.",
+          "Risk assessment is a legal requirement for all organizations.",
+          "Risk assessment is a one-time activity that should be conducted annually.",
+          "Risk assessment involves identifying, analyzing, and prioritizing security risks to inform decision-making and resource allocation."
         ],
-        correctAnswer: 1
+        correctAnswer: 3
       },
       {
-        question: "8. What is a primary role of an ethical hacker? 7 remaining",
+        question: "6. What are the different types of security controls (technical, administrative, physical)? 9 remaining",
         answers: [
-          "To steal data from businesses.",
-          "To identify and report security vulnerabilities.",
-          "To launch denial-of-service attacks.",
-          "To spread malware across the internet."
-        ],
-        correctAnswer: 1
-      },
-      {
-        question: "9. Which cybersecurity career path focuses on designing and implementing security measures for computer systems? 6 remaining",
-        answers: [
-          "Cybersecurity Analyst",
-          "Ethical Hacker",
-          "Security Engineer",
-          "Chief Information Security Officer (CISO)"
-        ],
-        correctAnswer: 2
-      },
-      {
-        question: "10. What skills are important for a career in cybersecurity? 5 remaining",
-        answers: [
-          "Strong communication and problem-solving skills",
-          "Ability to code in multiple programming languages",
-          "Excellent customer service skills",
-          "Experience in graphic design"
+          "Technical controls: Firewalls, intrusion detection systems, encryption. Administrative controls: Security policies, user training, access controls. Physical controls: Locks, security guards, surveillance cameras.",
+          "Technical controls: Security policies. Administrative controls: User training. Physical controls: Firewalls.",
+          "Technical controls: Risk assessments. Administrative controls: Incident response plans. Physical controls: Encryption.",
+          "Technical controls: Network topology. Administrative controls: IP addressing. Physical controls: DNS."
         ],
         correctAnswer: 0
       },
       {
-        question: "11. Encryption is a technique used to: 4 remaining",
+        question: "7. Describe the role of access controls in protecting sensitive information. 8 remaining",
         answers: [
-          "Make data readable by authorized users.",
-          "Scramble data to make it unreadable without a key.",
-          "Slow down internet connections.",
-          "Track user activity online."
+          "Access controls are used to encrypt data.",
+          "Access controls limit who can access specific resources and what actions they can perform.",
+          "Access controls are a type of network security device.",
+          "Access controls are used to conduct security audits."
         ],
         correctAnswer: 1
       },
       {
-        question: "12. A firewall acts as a barrier between a computer network and the internet. What is its primary function? 3 remaining",
+        question: "8. How can network security measures, such as firewalls and intrusion detection systems, enhance security? 7 remaining",
         answers: [
-          "To block all incoming and outgoing traffic.",
-          "To filter incoming and outgoing traffic based on security rules.",
-          "To encrypt all data sent over the network.",
-          "To store user passwords securely."
+          "By monitoring network traffic for suspicious activity and blocking unauthorized access.",
+          "By encrypting data at rest and in transit.",
+          "By conducting security awareness training for users.",
+          "By developing comprehensive security policies."
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
-        question: "13. What is a common social engineering tactic used by cybercriminals? 2 remaining",
+        question: "9. What is the importance of encryption in safeguarding data confidentiality? 6 remaining",
         answers: [
-          "Exploiting software vulnerabilities.",
-          "Using strong encryption methods.",
-          "Creating a sense of urgency or fear to pressure victims.",
-          "Implementing multi-factor authentication."
+          "Encryption is used to identify and authenticate users.",
+          "Encryption is a type of physical security control.",
+          "Encryption transforms plaintext into ciphertext, making it unreadable to unauthorized individuals.",
+          "Encryption is used to conduct vulnerability assessments."
         ],
         correctAnswer: 2
       },
       {
-        question: "14. Multi-factor authentication (MFA) is an additional layer of security that requires: 1 remaining",
+        question: "10. Explain the concept of incident response planning and its role in mitigating security breaches. 5 remaining",
         answers: [
-          "Only a strong password.",
-          "Either a password or a fingerprint scan.",
-          "Both a password and a unique code sent to your phone.",
-          "Answering a series of personal security questions."
+          "Incident response planning outlines the steps to be taken in the event of a security breach, such as identifying, containing, investigating, and recovering from the incident.",
+          "Incident response planning is a technical process for securing networks.",
+          "Incident response planning is a legal requirement for all organizations.",
+          "Incident response planning is a one-time activity that should be conducted annually."
+        ],
+        correctAnswer: 0
+      },
+      {
+        question: "11. Why are security policies and procedures essential for organizations? 4 remaining",
+        answers: [
+          "To provide a framework for security operations and decision-making.",
+          "To comply with regulatory requirements.",
+          "To reduce the risk of security breaches.",
+          "All of the above."
+        ],
+        correctAnswer: 3
+      },
+      {
+        question: "12. What are the key elements of a comprehensive security policy? 3 remaining",
+        answers: [
+          "Access control policies, incident response procedures, and user awareness guidelines.",
+          "Network configuration standards, encryption policies, and vulnerability management procedures.",
+          "Both a and b.",
+          "None of the above."
         ],
         correctAnswer: 2
       },
       {
-        question: "15. How can individuals stay informed about the latest cybersecurity threats? 0 remaining",
+        question: "13. How can user awareness and training programs contribute to a strong security posture? 2 remaining",
         answers: [
-          "Clicking on links in unknown emails.",
-          "Following reputable cybersecurity resources online.",
-          "Downloading software from untrusted sources.",
-          "Sharing personal information on public social media profiles."
+          "By educating users about security best practices and threats.",
+          "By empowering users to identify and report security incidents.",
+          "By fostering a security-conscious culture within the organization.",
+          "All of the above."
         ],
-        correctAnswer: 1
+        correctAnswer: 3
+      },
+      {
+        question: "14. What is the role of regular security audits and assessments? 1 remaining",
+        answers: [
+          "To identify and address security vulnerabilities and weaknesses.",
+          "To ensure compliance with security policies and standards.",
+          "To measure the effectiveness of security controls.",
+          "All of the above."
+        ],
+        correctAnswer: 3
+      },
+      {
+        question: "15. Discuss the importance of business continuity and disaster recovery planning in cybersecurity. 0 remaining",
+        answers: [
+          "To minimize business disruption and financial loss in the event of a security incident.",
+          "To ensure rapid recovery and restoration of critical systems and data.",
+          "To maintain business operations during and after a security breach.",
+          "All of the above."
+        ],
+        correctAnswer: 3
       },
       // Add more questions here following the same format   
     // ... your questions here ...
