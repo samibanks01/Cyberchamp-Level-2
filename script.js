@@ -211,7 +211,7 @@ const questions = [
   function displayUsername() {
     const usernameElement = document.getElementById("username-display");
     if (usernameElement) {
-      usernameElement.textContent = "Welcome to Week (I) Test, " + temporaryUsername;
+      usernameElement.textContent = "Welcome to Week (II) Test, " + temporaryUsername;
     }
   }
   
